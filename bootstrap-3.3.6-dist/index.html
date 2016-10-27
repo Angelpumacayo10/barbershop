@@ -9,7 +9,7 @@
 	<meta name="description" content="">
 	<meta name="author" content="">
 
-	<title>Cut Right Barbershop</title>
+	<title>Fantasy Barbershop</title>
 
 	<link href="css/bootstrap.css" rel="stylesheet">
 	<link rel="stylesheet" href="main.css">
@@ -20,33 +20,34 @@
 
 	<div class="navbar-wrapper">
 		<div class="container">
-			<nav class="navbar navbar-inverse navbar-static-top">
+			<nav class="navbar navbar-inverse navbar-static-top" role='navigation' >
 				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src='Images/logo4.jpg' style="height:38px; width=39px;">Cut Right Barbershop</a>
-					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+					<a class="navbar-brand" href="index.html"><img src='Images/logo3.jpg' style="height:38px; width=39px;">Fantasy Barbershop</a>
+					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded='false' aria-controls='navbar'>
 						<span class="sr-only">Toggle navigation</span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
 				</div>
+
 				<div class="collapse navbar-collapse" id="navbar">
 					<ul class="nav navbar-nav navbar-right">
-						<li><a href="barbers.html">Barbers</a></li>
+						<li class='active'><a href="barbers.html">Barbers</a></li>
 						<li><a href="services.html">Services</a></li>
 						<li><a href="haircut.html">Haircuts</a></li>
 						<li class="dropdown">
-							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <b class="caret"></b></a>
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">Social Media <span class="caret"></span></a>
 							<ul class="dropdown-menu">
 								<li><a href="#">Facebook</a></li>
 								<li><a href="#">Instagram</a></li>
 							</ul>
+							</li>
+							</ul>
 						</div>
-					</nav>
 				</div>
+			</nav>
 			</div>
-
-
 
 			<div id="myCarousel" class="carousel slide" data-ride="carousel">
 
@@ -55,27 +56,27 @@
 					<li data-target="#myCarousel" data-slide-to="1"></li>
 					<li data-target="#myCarousel" data-slide-to="2"></li>
 					<li data-target="#myCarousel" data-slide-to="3"></li>
-					<li data-target="#myCarousel" data-slide-to="4"></li>
 				</ol>
 				<div class="carousel-inner" role="listbox">
 					<div class="item active">
-						<img class="first-slide" src="Images/ct-mainlogo.jpg" alt="getting a haircut" class="img-responsive">
+						<img class="first-slide" src="Images/barbercover.jpg" alt="getting a haircut" class="img-responsive">
 						<div class="container">
 							<div class="carousel-caption">
+							<h1>FANTASY BARBERSHOP</h1>
 							</div>
 						</div>
 					</div>
 					<div class="item">
-						<img class="second-slide" src="Images/cut50.jpg" alt="Second slide" class="img-responsive">
+						<img class="second-slide" src="Images/shop.jpg" alt="Inside of Shop" class="img-responsive">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>Cut Right Barbers</h1>
+								<h1>Welcome to Fantasy Barbershop </h1>
 
 							</div>
 						</div>
 					</div>
 					<div class="item">
-						<img class="third-slide" src="Images/cut50.jpg" alt="Third slide" class="img-responsive">
+						<img class="third-slide" src="Images/cover2.jpg" alt="Third slide" class="img-responsive">
 						<div class="container">
 							<div class="carousel-caption">
 								<h1>One more for good measure.</h1>
@@ -84,18 +85,10 @@
 						</div>
 					</div>
 					<div class="item">
-						<img class="fourth-slide" src="Images/cut50.jpg" alt="Fourth slide" class="img-responsive">
+						<img class="fourth-slide" src="Images/logo4.png" alt="Barbershop logo" class="img-responsive">
 						<div class="container">
 							<div class="carousel-caption">
-								<h1>One more for good measure.</h1>
-							</div>
-						</div>
-					</div>
-					<div class="item">
-						<img class="fifth-slide" src="Images/cut50.jpg" alt="Fifth slide" class="img-responsive">
-						<div class="container">
-							<div class="carousel-caption">
-								<h1>One more for good measure.</h1>
+
 							</div>
 						</div>
 					</div>
@@ -110,45 +103,44 @@
 				</a>
 			</div>
 
-
 			<div class="container marketing midrow">
 				<hr class="featurette-divider">
 				<div class="row">
 					<div class="col-md-4">
-						<img class="img-circle" src="Images/marcus-photo1.jpg" alt="Generic placeholder image" width="170" height="170">
+						<img class="img-circle" src="Images/barber1.jpg" alt="Generic placeholder image" width="170" height="170">
 						<h2>Barbers</h2>
-						<p>Take your pick from all our outstanding friendly barbers.</p>
-						<p><a class="btn btn-default" href="barbers.html" role="button">Meet Barbers &raquo;</a></p>
+						<p>Take your pick from all our outstanding friendly barbers. All the fantasy barbers are very recorgnized and praised in their fields of work, take your pick you won't go wrong.</p>
+						<p><a class="btn btn-default" href="barbers.html" role="button">Meet Barbers </a></p>
 					</div>
 					<div class="col-md-4">
-						<img class="img-circle" src="Images/haircut.jpg" alt="haircut image" width="170" height="170">
+						<img class="img-circle" src="Images/cutimage.jpg" alt="barber image" width="170" height="170">
 						<h2>Haircuts</h2>
 						<p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-						<p><a class="btn btn-default" href="haircut.html" role="button">View Haircuts &raquo;</a></p>
+						<p><a class="btn btn-default" href="haircut.html" role="button">View Haircuts </a></p>
 					</div>
 					<div class="col-md-4">
 						<img class="img-circle" src="Images/prices.jpg" alt="Generic placeholder image" width="170" height="170">
 						<h2>Services</h2>
-						<p>Check out everything we do here at Cut RIght Barbershop! <span class="text-muted"><strong>Cut Right Barbershop</strong></span> pick out what haircut fits you best!.</p>
-						<p><a class="btn btn-default" href="services.html" role="button">Services &raquo;</a></p>
+						<p>Check out everything we do here at <span class="text-muted"><strong>Fantasy Barbershop</strong></span> we have had clients from all over the world stop by our famous Fantasy Shop! but don't take my word for it find out through our gallery.</p>
+						<p><a class="btn btn-default" href="services.html" role="button">Services </a></p>
 					</div>
 				</div>
 				<hr class="featurette-divider">
 				<div class="col-md-offset-1 col-md-10">
+
 					<div class="featurette">
 
-
-						<h2 class="featurette-heading"><strong>CUT RIGHT BARBERSHOP</strong></h2>
-						<p class="lead"><strong><span class="text-muted">341 San Bruno Avenue W, San Bruno, CA 94066 Tues-Sat 10am-6pm (619) 677-4733</span></strong></p>
+						<h2 class="featurette-heading"><strong>Fantasy Barbershop</strong></h2>
+						<p class="lead"><strong><span class="text-muted">2620 Westmoreland Avenue, San Francisco, CA 94066 Tues-Sat 10am-6pm (619) 677-4733</span></strong></p>
 						<p class="para">We specialize in Fades, tapers, mohawks, and straight razor shaves. We work mostly by appointments and we have a family friendly shop so feel free to stop by anytime.(we serve all ages).</p>
 					</div>
 				</div>
 			</div>
-			<div style="height: 300px;margin-top:60px;">
+			<div style="height: 300px; margin-top:60px;">
 				<div class="cube-wrap vertical">
 					<div class="cube depth">
 						<div class="front-pane">Welcome</div>
-						<div class="back-pane">Cut Right</div>
+						<div class="back-pane">Fantasy</div>
 						<div class="top-pane">To</div>
 						<div class="bottom-pane">Barbershop</div>
 						<div class="left-pane"></div>
@@ -171,7 +163,7 @@
 					<a href="[full link to your Instagram]">
 						<img class="img-circle" title="Instagram" alt="RSS" src="Images/instagramlogo.png" width="90" height="90" />
 					</a>
-					<p class="copy">&copy; 2016 Cut Right Barbershop and Angel Inc.</p>
+					<p class="copy">&copy; 2016 Fantasy Barbershop and Angel Inc.</p>
 				</div>
 			</footer>
 			<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
