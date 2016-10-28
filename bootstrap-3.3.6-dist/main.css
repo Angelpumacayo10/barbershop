@@ -65,6 +65,7 @@ img {
 .lead {
 	font-size: 37px;
 	text-align: center;
+	color: #777 !important;
 }
 .para {
 	font-size: 25px;
