@@ -136,6 +136,10 @@ img {
 	margin: 0 auto 0 auto;
 	text-align: center;
 }
+.number {
+	list-style-type: none;
+	color: black;
+}
 
 
 @-webkit-keyframes cube-spin {
